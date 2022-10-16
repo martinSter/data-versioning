@@ -106,3 +106,6 @@ dist
 output/*.csv
 output
 .idea
+
+# large file
+src/commands/data/employee_100000.json
