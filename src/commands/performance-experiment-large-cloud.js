@@ -6,8 +6,6 @@ var path = require('path');
 
 // Path to config file
 const config_path = __dirname+'/../../config/.env'
-
-// ??
 require('dotenv').config({path: config_path})
 const { ObjectID } = require('mongodb');
 
@@ -51,8 +49,7 @@ const run = async () => {
     var fileList = [
         // path.join(__dirname, 'data', 'employee.json'),
         // path.join(__dirname, 'data', 'employee_1000.json')
-        path.join(__dirname, 'data', 'employee_10000.json')
-        // path.join(__dirname, 'data', 'batch_100K', 'employee_10000.json')
+        path.join(__dirname, 'data', 'batch_100K', 'employee_10000.json')
     ]
 
     // Determine collection and batch size

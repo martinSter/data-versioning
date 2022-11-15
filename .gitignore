@@ -106,6 +106,6 @@ dist
 output/*.csv
 output
 .idea
-
-# large file
+src/commands/data/batch_1M
+src/commands/data/batch_100K
 src/commands/data/employee_100000.json
