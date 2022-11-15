@@ -54,6 +54,7 @@ const run = async () => {
 
     // Determine collection and batch size
     const COLLECTION = 'employee'
+    
     const BATCH_SIZE = 1000
 
     let total_documents = []
